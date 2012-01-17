@@ -1,3 +1,4 @@
 run lambda { |env|
-  [200, {"Content-Type" => "text/plain"}, ["Hello world!"]]
+  [301, {'Location' => 'http://www.gerlachcs.sk/sk/colne_sluzby/fiskalna_reprezentacia.html',
+    'Content-Type' => 'text/html'}, []]
 }
